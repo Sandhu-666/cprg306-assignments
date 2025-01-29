@@ -2,10 +2,12 @@ import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <div>
+    <div style={{ textAlign: "center", padding: "20px" }}>
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <p>
-        <Link href="/week-2">Go to Week 2 Assignment</Link>
+        <Link href="/week-2" style={{ fontSize: "18px", textDecoration: "none" }}>
+          Week 2 Assignment
+        </Link>
       </p>
     </div>
   );
